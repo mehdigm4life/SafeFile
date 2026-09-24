@@ -1,4 +1,4 @@
-package com.lagradost.safefile.example
+package com.mehdigm.safefile.example
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.lagradost.safefile.MediaFileContentType
-import com.lagradost.safefile.SafeFile
+import com.mehdigm.safefile.MediaFileContentType
+import com.mehdigm.safefile.SafeFile
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")

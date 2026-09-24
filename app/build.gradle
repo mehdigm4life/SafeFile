@@ -8,7 +8,7 @@ android {
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.lagradost.safefile.example"
+        applicationId "com.mehdigm.safefile.example"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -26,7 +26,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    namespace 'com.lagradost.safefile.example'
+    namespace 'com.mehdigm.safefile.example'
 }
 
 tasks.withType(KotlinJvmCompile.class).configureEach {

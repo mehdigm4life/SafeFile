@@ -19,7 +19,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'com.lagradost.safefile'
+    namespace 'com.mehdigm.safefile'
 }
 
 tasks.withType(KotlinJvmCompile.class).configureEach {
@@ -38,9 +38,9 @@ publishing {
     }
     publications {
         maven(MavenPublication) {
-            groupId 'com.lagradost'
+            groupId 'com.mehdigm'
             artifactId 'safefile'
-            version '0.0.8'
+            version '0.1.0'
 
             afterEvaluate {
                 from components.release

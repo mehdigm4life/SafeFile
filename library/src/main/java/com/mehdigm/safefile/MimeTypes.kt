@@ -1,4 +1,4 @@
-package com.lagradost.safefile
+package com.mehdigm.safefile
 
 import android.webkit.MimeTypeMap
 
